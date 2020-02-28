@@ -309,14 +309,3 @@ model.evaluation()     #evaluation using a saved model
 
 
 print('total time taken: {}'.format(time.time()-start_time))
-
-
-
-
-
-
-
-
-
-
-
