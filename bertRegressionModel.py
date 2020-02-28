@@ -257,7 +257,7 @@ for batch in prediction_dataloader:
     predictions.append(logits)
     true_scores.append(label_ids)
 
-print('FINISHED!!!')
+print('Saving results')
 
 
 flat_predictions=np.asarray(predictions)
