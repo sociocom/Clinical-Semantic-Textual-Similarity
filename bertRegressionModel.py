@@ -137,16 +137,14 @@ batch_size=4
 
 train_file='STS_data/Clinical-sts-train.txt'
 dev_file='STS_data/Clinical-sts-dev.txt'
-test_file='STS_data/clinicalSTS2019.test.txt'
+test_file='STS_data/clinicalSTS.test.txt'
 
 train,dev,test=loadData(train_file,dev_file,test_file)
 
 
-clinicalBert='STS_data/clinical_bert_similarity'
-Googlebert='STS_data/web_bert_similarity'
-clinicalBert_all_notes='STS_data/bert_pretrain_output_all_notes_150000'
+# clinicalBert_all_notes='STS_data/bert_pretrain_output_all_notes_150000'
 # v3clinBert='STS_data/pretraining'
-bertModel=clinicalBert   #this can also be replace with 'bert-base-cased', bert-base-uncased' or any other model
+bertModel='bert-base-uncased'  #this can be replaced with saved models above
 
 bert_tokenizer=BertTokenizer.from_pretrained(bertModel,do_lower_case=True)
 
