@@ -3,6 +3,8 @@
 #truncation and bert preprocessing is copied from https://github.com/huggingface/pytorch-pretrained-BERT/blob/78462aad6113d50063d8251e27dbaadb7f44fbf0/examples/extract_features.py#L150
 #and other parts are from https://huggingface.co/transformers/v2.2.0/model_doc/bert.html#tfbertforpretraining, https://mccormickml.com/2019/07/22/BERT-fine-tuning/
 
+#this code allows saving of the trained model and loading it for future predictions
+
 import warnings
 warnings.filterwarnings('ignore',category=FutureWarning)
 
