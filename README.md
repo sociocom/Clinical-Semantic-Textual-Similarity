@@ -24,7 +24,9 @@ Clinical domain BERT: <a href="https://ai-health.m.u-tokyo.ac.jp/uth-bert"> http
 
 ### English BERT models
 Clinical BERT: <a href="https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT">https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT</a>
+
 SciBERT: <a href="https://github.com/allenai/scibert">https://github.com/allenai/scibert</a>
+
 BioBERT: <a href="https://github.com/dmis-lab/biobert">https://github.com/dmis-lab/biobert</a>
 
 
