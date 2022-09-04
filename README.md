@@ -12,7 +12,7 @@ For the continuous scores, we use the standard BERT model and add a regression l
 The English clinical domain data is not publicly available due to privacy reasons.
 However, you can use general domain English data from the SemEval STS shared task. This data is saved in the STS_data folder.
 
-Please download the Japanese clinical domain STS data from this <a href="https://github.com/sociocom/Japanese-Clinical-STS" target="_blank">Github repository</a>
+Japanese clinical domain STS data can be downloaded freely from this <a href="https://github.com/sociocom/Japanese-Clinical-STS" target="_blank">Github repository</a>
 
 
 For more information about this task check the <a href="" target="_blank">project website</a> or read the paper below.
