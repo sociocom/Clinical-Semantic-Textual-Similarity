@@ -35,7 +35,7 @@ BioBERT: <a href="https://github.com/dmis-lab/biobert">https://github.com/dmis-l
 
 
 # Reference
-For more information about this task check the <a href="" target="_blank">project website</a> and read the paper below.
+For more information about this task check the <a href="https://faith-wm.github.io/sts_proj.html" target="_blank">project website</a> and read the paper below.
 
 If you use the Japanese dataset please cite our paper:
 ```
