@@ -1,14 +1,14 @@
-# BERT for sentence pair regression task (Semantic Textual Similarity)
-The scripts are for 
+# Clinical Semantic Textual Similarity (English& Japanese)
+The scripts are for calculating semantic similarity between texts focussing on the clinical/biomedical domain.
+The model input is sentence pairs annotated with semantic similarity scores between 0 (low semantic similarity) and 5 (high semantic similarity)
 
-BERT is recently the  state-of-the-art method for NLP tasks.
-Here, I use BERT for sentence pair regresssion task.
-The reason I do not want to use the BERT sentence classification model is because the sentence pairs scores/ labels are continuous and not integers.
-The main task is to use BERT to compute semantic textual similarity between sentence pairs.
-The sentences are annotated on a continuos scale [0, 5].
-I use BERT with a  regression layer on top.
+Depending on the dataset, the sentence pairs are annotated with discrete semantic similarity scores [0,1,2,3,4,5] or continuous scores [0-5].
+For the discrete scores, we use BERT model for sequence classification.
+For the continuous scores, we use the standard BERT model and add a regression layer on top.
 
 
+
+#Dataset
 The English clinical domain data is not publicly available due to privacy reasons.
 However, you can use general domain English data from the SemEval STS shared task. This data is saved in the STS_data folder.
 
