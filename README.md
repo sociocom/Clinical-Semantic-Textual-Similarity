@@ -15,6 +15,14 @@ However, you can use general domain English data from the SemEval STS shared tas
 Japanese clinical domain STS data can be downloaded freely from this <a href="https://github.com/sociocom/Japanese-Clinical-STS" target="_blank">Github repository</a>
 
 
+# Japanese BERT Models
+General domain BERT: <a href="https://github.com/cl-tohoku/bert-japanese">https://github.com/cl-tohoku/bert-japanese</a>
+
+Clinical domain BERT: <a href="https://ai-health.m.u-tokyo.ac.jp/uth-bert"> https://ai-health.m.u-tokyo.ac.jp/uth-bert</a>
+
+
+
+
 For more information about this task check the <a href="" target="_blank">project website</a> and read the paper below.
 
 # Reference
