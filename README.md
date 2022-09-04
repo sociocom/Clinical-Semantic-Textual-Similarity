@@ -8,7 +8,7 @@ For the continuous scores, we use the standard BERT model and add a regression l
 
 
 
-#Dataset
+# Dataset
 The English clinical domain data is not publicly available due to privacy reasons.
 However, you can use general domain English data from the SemEval STS shared task. This data is saved in the STS_data folder.
 
