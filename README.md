@@ -17,12 +17,12 @@ Japanese clinical domain STS data can be downloaded freely from this <a href="ht
 
 # BERT Models
 
-### Japanese BERT models
+### Japanese models
 General domain BERT: <a href="https://github.com/cl-tohoku/bert-japanese">https://github.com/cl-tohoku/bert-japanese</a>
 
 Clinical domain BERT: <a href="https://ai-health.m.u-tokyo.ac.jp/uth-bert"> https://ai-health.m.u-tokyo.ac.jp/uth-bert</a>
 
-### English BERT models
+### English models
 Clinical BERT: <a href="https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT">https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT</a>
 
 SciBERT: <a href="https://github.com/allenai/scibert">https://github.com/allenai/scibert</a>
