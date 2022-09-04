@@ -280,12 +280,3 @@ results_df.to_csv('resultsDF.csv',index=False)
 print('total time taken: {}'.format(time.time()-start_time))
 
 
-
-
-
-
-
-
-
-
-
