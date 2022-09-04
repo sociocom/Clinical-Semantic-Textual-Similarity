@@ -296,7 +296,7 @@ train_file = 'STS_data/sts-trainClean.csv'
 dev_file='STS_data/sts-devClean.csv'
 test_file='STS_data/sts-testClean.csv'
 
-bertModel = 'bert-base-uncased'
+bertModel = 'bert-base-uncased'  #can be changed to other bert models accordingly
 output_dir='STS_data/output'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
