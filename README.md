@@ -23,9 +23,11 @@ Clinical domain BERT: <a href="https://ai-health.m.u-tokyo.ac.jp/uth-bert"> http
 
 
 
-For more information about this task check the <a href="" target="_blank">project website</a> and read the paper below.
+
 
 # Reference
+For more information about this task check the <a href="" target="_blank">project website</a> and read the paper below.
+
 If you use the Japanese dataset please cite our paper:
 ```
 @article{mutinda2021semantic,
