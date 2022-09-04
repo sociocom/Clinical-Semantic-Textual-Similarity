@@ -13,10 +13,10 @@ However, you can use general domain English data from the SemEval STS shared tas
 Please download the Japanese clinical domain STS data from this <a href="https://github.com/sociocom/Japanese-Clinical-STS" target="_blank">Github repository</a>
 
 
-# Reference
-For detailed information about the models and the dataset read our paper below.
+For more information about this task check the <a>project website</a> or read the paper shared below.
 
-Also, if you use the Japanese dataset please cite our paper:
+# Reference
+If you use the Japanese dataset please cite our paper:
 ```
 @article{mutinda2021semantic,
   title={Semantic Textual Similarity in Japanese Clinical Domain Texts Using BERT},
