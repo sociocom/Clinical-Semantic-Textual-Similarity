@@ -15,7 +15,7 @@ However, you can use general domain English data from the SemEval STS shared tas
 Japanese clinical domain STS data can be downloaded freely from this <a href="https://github.com/sociocom/Japanese-Clinical-STS" target="_blank">Github repository</a>
 
 
-For more information about this task check the <a href="" target="_blank">project website</a> or read the paper below.
+For more information about this task check the <a href="" target="_blank">project website</a> and read the paper below.
 
 # Reference
 If you use the Japanese dataset please cite our paper:
