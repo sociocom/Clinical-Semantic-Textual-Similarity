@@ -135,16 +135,15 @@ class BertRegressionModel(BertPreTrainedModel):
 
 batch_size=4
 
-train_file='STS_data/Clinical-sts-train.txt'
-dev_file='STS_data/Clinical-sts-dev.txt'
-test_file='STS_data/clinicalSTS.test.txt'
+train_file='STS_data/sts-trainClean.txt'
+dev_file='STS_data/sts-devClean.txt'
+test_file='STS_data/sts-testClean.txt'
 
 train,dev,test=loadData(train_file,dev_file,test_file)
 
 
-# clinicalBert_all_notes='STS_data/bert_pretrain_output_all_notes_150000'
-# v3clinBert='STS_data/pretraining'
-GoogleBert='STS_data/google-bert'         #the whole folder could not upload to github due to file size limiations use  'bert-xx-xx' instead'
+
+GoogleBert='STS_data/google-bert'     
 bertModel=GoogleBert  #this can be replaced with other saved models, or 'bert-base-cased', 'bert-base-uncased',....
 
 bert_tokenizer=BertTokenizer.from_pretrained(bertModel,do_lower_case=True)
