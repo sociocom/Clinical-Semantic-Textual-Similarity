@@ -1,5 +1,5 @@
 # Clinical Semantic Textual Similarity (English& Japanese)
-The scripts are for calculating semantic similarity between texts focussing on the clinical/biomedical domain.
+The scripts are for calculating semantic similarity in clinical/biomedical domain texts.
 The model input is sentence pairs annotated with semantic similarity scores between 0 (low semantic similarity) and 5 (high semantic similarity)
 
 Depending on the dataset, the sentence pairs are annotated with discrete semantic similarity scores [0,1,2,3,4,5] or continuous scores [0-5].
