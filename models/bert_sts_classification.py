@@ -324,5 +324,3 @@ model.train()
 
 print('\n\n total time', time.time()-start_time)
 
-
-
